@@ -1,0 +1,5 @@
+=LEFT(RIGHT(A1:A60,(LEN(A1:A60)-SEARCH("'",A1:A60))),LEN(RIGHT(A1:A60,(LEN(A1:A60)-SEARCH("'",A1:A60))))-1)
+
+With the energy readings from the py file in the spreadsheet, but surronded by words, use this to extract the numbers.
+Put the energy reading sentences from 1-60 in cells A1-A60, copy and past the above into any cell that is in the 1 row.
+Extend this equation downwards to 60 and you should have all 60 energy readings as numbers.

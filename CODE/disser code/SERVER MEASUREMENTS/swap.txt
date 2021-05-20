@@ -1,0 +1,1 @@
+(for i in {1..60}; do (free -m|grep Swap:;sleep 1); done) > swap.csv

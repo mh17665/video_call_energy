@@ -1,0 +1,1 @@
+(for i in {1..60}; do (free -m|grep Mem:;sleep 1); done) > ram.csv
