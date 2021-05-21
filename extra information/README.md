@@ -1,2 +1,4 @@
-# Camera
-The folders hold extra detail about the components of the device during the tests, and the energy summary excel sheet summarises the energy consumption.  Information about bandwidth is in the energy summary.
+# Extra info
+## Cumulative bandwidth
+2 clients, Jitsi call, pi client, 1 minute = 256MB total cumulative bandwidth   
+6.01W of energy used
